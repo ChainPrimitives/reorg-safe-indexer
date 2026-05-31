@@ -1,0 +1,16 @@
+src/
+tests/
+coverage/
+node_modules/
+*.config.ts
+.eslintrc.cjs
+.prettierrc.json
+.github/
+tsconfig.json
+vitest.config.ts
+tsup.config.ts
+reorg-safe-indexer.md
+*.sqlite
+*.sqlite-*
+.env
+.env.*
