@@ -69,7 +69,9 @@ describe("PostgresStorage (mocked pool)", () => {
 
   it("creates tables on init", async () => {
     await store.init();
-    expect(pool.lastSql()).toContain("CREATE TABLE IF NOT EXISTS indexed_events");
+    expect(pool.lastSql()).toContain(
+      "CREATE TABLE IF NOT EXISTS indexed_events",
+    );
   });
 
   it("upserts blocks with ON CONFLICT", async () => {
