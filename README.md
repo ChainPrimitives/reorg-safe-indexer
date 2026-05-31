@@ -1,5 +1,11 @@
 # reorg-safe-indexer
 
+[![npm version](https://img.shields.io/npm/v/reorg-safe-indexer.svg)](https://www.npmjs.com/package/reorg-safe-indexer)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Node.js](https://img.shields.io/badge/node-%3E%3D18-brightgreen)](https://nodejs.org)
+[![Build](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/ChainPrimitives/reorg-safe-indexer)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ChainPrimitives/reorg-safe-indexer/pulls)
+
 A lightweight, configurable blockchain event indexer with built-in chain
 reorganization handling. It processes events idempotently, rolls back
 automatically on reorgs, and supports pluggable storage backends.
